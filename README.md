@@ -79,3 +79,29 @@ These results demonstrate that although the system operates acceptably under the
 base case, it is not fully N-1 secure against every individual transmission-line
 outage.
 </p>
+
+
+## N-1 Transformer Outage
+<img width="400" height="450" alt="data" src="N-1_Transformer/transformer1_down.png" />
+
+<p>
+Each transformer was individually removed from service to evaluate the system's
+ability to withstand a single transformer outage. Following each contingency,
+the AC power flow was resolved and the resulting bus voltages, equipment loading,
+islanding, and convergence were evaluated.
+</p>
+
+<p>
+The analysis identified several critical transformer contingencies. Some transformer
+outages produced post-contingency voltage violations, including minimum bus voltages
+of approximately 0.833 pu and 0.899 pu. Other transformer outages resulted in
+electrical islanding, with isolated generation or load, while several cases could
+not obtain a valid post-contingency power-flow solution.
+</p>
+
+<p>
+These results indicate that the IEEE 12-bus system is not fully N-1 secure against
+all transformer outages. The critical cases identify transformers whose loss either
+weakens voltage support, isolates portions of the network, or prevents the remaining
+system from reaching an acceptable steady-state operating condition.
+</p>
