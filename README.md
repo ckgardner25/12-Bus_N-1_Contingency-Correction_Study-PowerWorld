@@ -60,6 +60,43 @@ used as the reference state for the subsequent N-1 contingency analysis.
 ## N-1 Transmission Line Failure
 <img width="400" height="450" alt="data" src="N-1_Tranmssion_lines/transline1_down.png" />
 
+<table>
+  <tr>
+    <th>Contingency</th>
+    <th>Post-Contingency Result</th>
+    <th>Primary Issue</th>
+  </tr>
+  <tr>
+    <td>Line 2-5 Outage</td>
+    <td>0 Violations</td>
+    <td>Acceptable</td>
+  </tr>
+  <tr>
+    <td>Line 5-4 Outage</td>
+    <td>0.879 pu Minimum Voltage</td>
+    <td>Undervoltage</td>
+  </tr>
+  <tr>
+    <td>Line 6-4 Outage</td>
+    <td>110.1% Maximum Branch Loading</td>
+    <td>Thermal Overload</td>
+  </tr>
+  <tr>
+    <td>Line 1-2 Outage</td>
+    <td>Unsolved Power Flow</td>
+    <td>Requires Further Investigation</td>
+  </tr>
+  <tr>
+    <td>Line 1-6 Outage</td>
+    <td>Unsolved Power Flow</td>
+    <td>Requires Further Investigation</td>
+  </tr>
+  <tr>
+    <td>Line 7-8 Outage</td>
+    <td>Unsolved Power Flow</td>
+    <td>Requires Further Investigation</td>
+  </tr>
+</table>
 <p>
 Each transmission line was individually removed from service and the AC power flow
 was resolved to determine whether the remaining system could continue operating
@@ -83,6 +120,45 @@ outage.
 
 ## N-1 Transformer Outage
 <img width="400" height="450" alt="data" src="N-1_Transformer/transformer1_down.png" />
+
+
+<table>
+  <tr>
+    <th>Contingency</th>
+    <th>Post-Contingency Result</th>
+    <th>Primary Issue</th>
+  </tr>
+  <tr>
+    <td>Transformer 1-7 Outage</td>
+    <td>2 Violations; Maximum Voltage 1.195 pu</td>
+    <td>Overvoltage</td>
+  </tr>
+  <tr>
+    <td>Transformer 2-10 Outage</td>
+    <td>585 MW Islanded Load; Minimum Voltage 0.833 pu</td>
+    <td>Islanding / Undervoltage</td>
+  </tr>
+  <tr>
+    <td>Transformer 3-8 Outage</td>
+    <td>250 MW Islanded Load; Unsolved Power Flow</td>
+    <td>Islanding / Unsolved</td>
+  </tr>
+  <tr>
+    <td>Transformer 3-11 Outage</td>
+    <td>0 Violations</td>
+    <td>Acceptable</td>
+  </tr>
+  <tr>
+    <td>Transformer 6-12 Outage</td>
+    <td>474 MW Islanded Load; Minimum Voltage 0.899 pu</td>
+    <td>Islanding / Undervoltage</td>
+  </tr>
+  <tr>
+    <td>Transformer 8-3 Outage</td>
+    <td>Unsolved Power Flow</td>
+    <td>Requires Further Investigation</td>
+  </tr>
+</table>
 
 <p>
 Each transformer was individually removed from service to evaluate the system's
