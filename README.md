@@ -4,7 +4,7 @@
 Objective: Assess whether the power system remains secure and operates within acceptable limits following a disturbance. The study applies the N-1 security criterion, which evaluates the system's ability to continue operating safely after the loss of a single critical component.
 
 
-<img width="400" height="450" alt="diagram" src="Base/diagram.png" />
+<img width="400" height="450" alt="diagram" src="base/diagram.png" />
 <h3>Project Scope</h3>
 
 <ul>
@@ -54,7 +54,7 @@ the defined 0.90–1.10 pu limits. Bus voltages ranged from 0.984 pu at Bus 2 to
 1.053 pu at Bus 7, with no base-case voltage violations. This operating point was
 used as the reference state for the subsequent N-1 contingency analysis.
 </p>
-<img width="400" height="450" alt="data" src="Base/base_case.png" />
+<img width="400" height="450" alt="data" src="base/base_case.png" />
 
 
 ## N-1 Transmission Line Failure
