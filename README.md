@@ -117,6 +117,42 @@ base case, it is not fully N-1 secure against every individual transmission-line
 outage.
 </p>
 
+### Corrective Action — Reactive Power Compensation
+<img width="400" height="450" alt="data" src="N-1_Tranmssion_lines/data_fix.png" />
+
+<p>
+The outage of transmission line 5–4 initially produced an undervoltage condition and
+failed the N-1 contingency criterion. To improve post-contingency voltage support,
+reactive compensation was increased near the affected area.
+</p>
+
+<p>
+The existing shunt capacitor at Bus 5 was increased from 40 Mvar to 50 Mvar, and an
+additional 100 Mvar shunt capacitor was added at Bus 4. After applying these changes,
+the 5–4 transmission-line contingency was rerun in PowerWorld.
+</p>
+
+<p>
+The modified system successfully solved with zero reported contingency violations,
+indicating that the added local reactive-power support was sufficient to restore the
+system to an acceptable post-contingency operating condition.
+</p>
+
+<ul>
+    <li>Bus 5 shunt compensation: 40 Mvar to 50 Mvar</li>
+    <li>Additional Bus 4 shunt compensation: 100 Mvar</li>
+    <li>Original 5–4 outage result: Undervoltage violation</li>
+    <li>Post-mitigation 5–4 outage result: 0 violations</li>
+    <li>Final N-1 status for 5–4 outage: PASS</li>
+</ul>
+
+<p>
+This corrective-action study demonstrates how targeted reactive-power compensation
+can improve voltage security and restore N-1 compliance following a critical
+transmission-line outage.
+</p>
+
+
 
 ## N-1 Transformer Outage
 <img width="400" height="450" alt="data" src="N-1_Transformer/transformer1_down.png" />
