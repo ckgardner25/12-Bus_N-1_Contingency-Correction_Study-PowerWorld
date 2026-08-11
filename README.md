@@ -217,3 +217,41 @@ all transformer outages. The critical cases identify transformers whose loss eit
 weakens voltage support, isolates portions of the network, or prevents the remaining
 system from reaching an acceptable steady-state operating condition.
 </p>
+
+### Corrective Action — LTC Voltage Regulation
+<img width="400" height="450" alt="data" src="N-1_Transformer/transformer-fix.png" />
+
+<p>
+The N-1 outage of Transformer 1–7 initially produced an overvoltage condition on
+the 345-kV portion of the system. Bus 7 increased to 1.195 pu and Bus 8 increased
+to 1.148 pu, both exceeding the 1.10 pu contingency voltage limit.
+</p>
+
+<p>
+To correct the post-contingency overvoltage without adding additional shunt
+compensation, the surviving Transformer 8–3 was configured for automatic
+load-tap-changer (LTC) voltage regulation. The transformer was set to regulate
+Bus 8 using AVR control with a 1.04–1.05 pu voltage regulation band, a 0.90–1.10
+tap-ratio range, and a 0.00625 pu tap step.
+</p>
+
+<p>
+After enabling automatic tap control and rerunning the Transformer 1–7 outage,
+the contingency successfully converged with zero reported post-contingency
+violations. The LTC therefore restored acceptable voltage performance for the
+1–7 transformer outage while using an operational control strategy rather than
+additional reactive compensation.
+</p>
+
+<ul>
+    <li>Original contingency: Transformer 1–7 outage</li>
+    <li>Original Bus 7 voltage: 1.195 pu</li>
+    <li>Original Bus 8 voltage: 1.148 pu</li>
+    <li>Corrective device: Transformer 8–3 LTC</li>
+    <li>Regulated bus: Bus 8</li>
+    <li>Voltage-control band: 1.04–1.05 pu</li>
+    <li>Tap-ratio range: 0.90–1.10 pu</li>
+    <li>Tap step size: 0.00625 pu</li>
+    <li>Post-mitigation contingency violations: 0</li>
+    <li>Final Transformer 1–7 N-1 status: PASS</li>
+</ul>
