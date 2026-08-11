@@ -1,0 +1,401 @@
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+                    PowerWorld Simulator 24 Educational, Optimal Power Flow (OPF), Security Constrained OPF (SCOPF), OPF Reserves, Available Transfer Capability (ATC), PV and QV Curves (PVQV), Transient Stability, Geomagnetically Induced Current, Weather, Contingency RAS
+                      Contingency Analysis  
+
+Name of Base Case:     C:\Undergraduate Work\Projects\12-Bus_Powerworld\12-Bus_Test.PWB
+Report printed at:     8/10/2026 8:52:38 PM
+
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY L_0000011-0000022C1
+     ELEMENTS:
+          L_0000011-0000022C1; OPEN Line 1 (1)  TO  2 (2) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 1_230.0 (1)  TO  2_230.0 (2) CKT 1 |  | CHECK |  | Opened flow of 233.62 MVA | ELEMENT
+*** UNSOLVABLE ***
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY L_0000011-0000066C1
+     ELEMENTS:
+          L_0000011-0000066C1; OPEN Line 1 (1)  TO  6 (6) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 1_230.0 (1)  TO  6_230.0 (6) CKT 1 |  | CHECK |  | Opened flow of 143.40 MVA | ELEMENT
+*** UNSOLVABLE ***
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000011-0000077C1
+     ELEMENTS:
+          T_0000011-0000077C1; OPEN Transformer 1 (1)  TO  7 (7) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Transformer 1_230.0 (1)  TO  7_345.0 (7) CKT 1 |  | CHECK |  | Opened flow of 300.11 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 0)
+          BRANCH:                 0
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000099-0000011C1
+     ELEMENTS:
+          T_0000099-0000011C1; OPEN Transformer 9 (9)  TO  1 (1) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Transformer 9_ 15.5 (9)  TO  1_230.0 (1) CKT 1 |  | CHECK |  | Opened flow of  71.20 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 0)
+          BRANCH:                 0
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY L_0000022-0000055C1
+     ELEMENTS:
+          L_0000022-0000055C1; OPEN Line 2 (2)  TO  5 (5) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 2_230.0 (2)  TO  5_230.0 (5) CKT 1 |  | CHECK |  | Opened flow of 108.37 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 0)
+          BRANCH:                 0
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000022-00001010C1
+     ELEMENTS:
+          T_0000022-00001010C1; OPEN Transformer 2 (2)  TO  10 (10) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Transformer 2_230.0 (2)  TO  10_ 15.5 (10) CKT 1 |  | CHECK |  | Opened flow of 597.50 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 1)
+          BRANCH:                 0
+          BUS VOLTAGE:            1
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:      585.00
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          2 (2)   LOW V    VOLT:    0.8407   LIMIT:  0.9000   Base Case Value:  0.9843
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000044-0000033C1
+     ELEMENTS:
+          T_0000044-0000033C1; OPEN Line 4 (4)  TO  3 (3) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 4_230.0 (4)  TO  3_345.0 (3) CKT 1 |  | CHECK |  | Opened flow of  64.15 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 0)
+          BRANCH:                 0
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000033-0000044C2
+     ELEMENTS:
+          T_0000033-0000044C2; OPEN Line 3 (3)  TO  4 (4) CKT 2 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 3_345.0 (3)  TO  4_230.0 (4) CKT 2 |  | CHECK |  | Opened flow of  64.95 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 0)
+          BRANCH:                 0
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000088-0000033C1
+     ELEMENTS:
+          T_0000088-0000033C1; OPEN Transformer 8 (8)  TO  3 (3) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Transformer 8_345.0 (8)  TO  3_345.0 (3) CKT 1 |  | CHECK |  | Opened flow of 236.55 MVA | ELEMENT
+*** UNSOLVABLE ***
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000033-00001111C1
+     ELEMENTS:
+          T_0000033-00001111C1; OPEN Transformer 3 (3)  TO  11 (11) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Transformer 3_345.0 (3)  TO  11_ 18.0 (11) CKT 1 |  | CHECK |  | Opened flow of 250.44 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 8)
+          BRANCH:                 1
+          BUS VOLTAGE:            7
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:      250.00
+     BRANCH MVA VIOLATIONS:
+          6 (6)  TO  12 (12) CKT 1    MVA:   603.5   LIMIT:   500.0   %: 120.7   Base Case Value:   483.6
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          4 (4)   LOW V    VOLT:    0.4178   LIMIT:  0.9000   Base Case Value:  0.9971
+          5 (5)   LOW V    VOLT:    0.4228   LIMIT:  0.9000   Base Case Value:  1.0036
+          3 (3)   LOW V    VOLT:    0.4707   LIMIT:  0.9000   Base Case Value:  0.9982
+          8 (8)   LOW V    VOLT:    0.6604   LIMIT:  0.9000   Base Case Value:  1.0437
+          7 (7)   LOW V    VOLT:    0.8131   LIMIT:  0.9000   Base Case Value:  1.0630
+          2 (2)   LOW V    VOLT:    0.8755   LIMIT:  0.9000   Base Case Value:  0.9843
+          1 (1)   LOW V    VOLT:    0.8965   LIMIT:  0.9000   Base Case Value:  0.9973
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000055-0000044C1
+     ELEMENTS:
+          T_0000055-0000044C1; OPEN Line 5 (5)  TO  4 (4) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 5_230.0 (5)  TO  4_230.0 (4) CKT 1 |  | CHECK |  | Opened flow of  18.88 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 1)
+          BRANCH:                 0
+          BUS VOLTAGE:            1
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          5 (5)   LOW V    VOLT:    0.8813   LIMIT:  0.9000   Base Case Value:  1.0036
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000066-0000044C1
+     ELEMENTS:
+          T_0000066-0000044C1; OPEN Line 6 (6)  TO  4 (4) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 6_230.0 (6)  TO  4_230.0 (4) CKT 1 |  | CHECK |  | Opened flow of 197.11 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 1)
+          BRANCH:                 1
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          6 (6)  TO  12 (12) CKT 1    MVA:   544.7   LIMIT:   500.0   %: 108.9   Base Case Value:   483.6
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY T_0000066-00001212C1
+     ELEMENTS:
+          T_0000066-00001212C1; OPEN Transformer 6 (6)  TO  12 (12) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Transformer 6_230.0 (6)  TO  12_ 13.8 (12) CKT 1 |  | CHECK |  | Opened flow of 483.61 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 1)
+          BRANCH:                 0
+          BUS VOLTAGE:            1
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:      474.00
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          6 (6)   LOW V    VOLT:    0.8913   LIMIT:  0.9000   Base Case Value:  0.9844
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY L_0000077-0000088C1
+     ELEMENTS:
+          L_0000077-0000088C1; OPEN Line 7 (7)  TO  8 (8) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 7_345.0 (7)  TO  8_345.0 (8) CKT 1 |  | CHECK |  | Opened flow of 354.87 MVA | ELEMENT
+*** UNSOLVABLE ***
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY G_0000099U1
+     ELEMENTS:
+          G_0000099U1; OPEN Gen 9 (9) #1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Gen 9_ 15.5 (9) #1 |  | CHECK |  | Opened  68.74 MW | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 0)
+          BRANCH:                 0
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY G_00001010UG2
+     ELEMENTS:
+          G_00001010UG2; OPEN Gen 10 (10) #G2 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Gen 10_ 15.5 (10) #G2 |  | CHECK |  | Opened 585.00 MW | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 2)
+          BRANCH:                 0
+          BUS VOLTAGE:            2
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          2 (2)   LOW V    VOLT:    0.8407   LIMIT:  0.9000   Base Case Value:  0.9843
+          10 (10)   LOW V    VOLT:    0.8407   LIMIT:  0.9000   Base Case Value:  1.0000
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY G_00001111U1
+     ELEMENTS:
+          G_00001111U1; OPEN Gen 11 (11) #1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Gen 11_ 18.0 (11) #1 |  | CHECK |  | Opened 250.00 MW | ELEMENT
+*** UNSOLVABLE ***
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY G_00001212UG4
+     ELEMENTS:
+          G_00001212UG4; OPEN Gen 12 (12) #G4 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Gen 12_ 13.8 (12) #G4 |  | CHECK |  | Opened 474.00 MW | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 2)
+          BRANCH:                 0
+          BUS VOLTAGE:            2
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          6 (6)   LOW V    VOLT:    0.8913   LIMIT:  0.9000   Base Case Value:  0.9844
+          12 (12)   LOW V    VOLT:    0.8913   LIMIT:  0.9000   Base Case Value:  1.0000
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY L_0000055-0000044C1
+     ELEMENTS:
+          L_0000055-0000044C1; OPEN Line 5 (5)  TO  4 (4) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 5_230.0 (5)  TO  4_230.0 (4) CKT 1 |  | CHECK |  | Opened flow of  18.88 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 1)
+          BRANCH:                 0
+          BUS VOLTAGE:            1
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          None.
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          5 (5)   LOW V    VOLT:    0.8813   LIMIT:  0.9000   Base Case Value:  1.0036
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+*----*----*----*----*----*----*----*----*----*----*----*----*----*----*
+CONTINGENCY L_0000066-0000044C1
+     ELEMENTS:
+          L_0000066-0000044C1; OPEN Line 6 (6)  TO  4 (4) CKT 1 |  | CHECK | NO  | 0.000000 | 
+     APPLIED AND SKIPPED ELEMENTS:
+          Applied:
+            OPEN Line 6_230.0 (6)  TO  4_230.0 (4) CKT 1 |  | CHECK |  | Opened flow of 197.11 MVA | ELEMENT
+     NUMBER OF VIOLATIONS BY CATEGORY (Total = 1)
+          BRANCH:                 1
+          BUS VOLTAGE:            0
+          INTERFACE:              0
+          LOAD ISLANDED:          NONE
+          GENERATION ISLANDED:    NONE
+     BRANCH MVA VIOLATIONS:
+          6 (6)  TO  12 (12) CKT 1    MVA:   544.7   LIMIT:   500.0   %: 108.9   Base Case Value:   483.6
+     BRANCH AMP VIOLATIONS:
+          None.
+     BUS LOW VOLTAGE VIOLATIONS:
+          None.
+     BUS HIGH VOLTAGE VIOLATIONS:
+          None.
+     INTERFACE VIOLATIONS:
+          None.
+
