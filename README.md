@@ -1,4 +1,4 @@
-# IEEE_12-Bus_Contingency_Study_-PowerWorld-
+# IEEE 12-Bus Contingency Study | PowerWorld
 
 ## Overview
 Objective: Assess whether the power system remains secure and operates within acceptable limits following a disturbance. The study applies the N-1 security criterion, which evaluates the system's ability to continue operating safely after the loss of a single critical component.
